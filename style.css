@@ -1,0 +1,247 @@
+body{
+    overflow-x: hidden;
+}
+#header{
+    background-image:  linear-gradient(rgba(0,0,0,0.6), rgb(0,0,0,0.2)), url(images/laptop1.jpeg);
+    background-repeat: no-repeat;
+    height: 840px;
+    background-size: cover;
+    animation: mymove 7s infinite;
+}
+@keyframes mymove {
+    form {background-image: url(images/laptop1.jpeg) ;}
+    to {background-image:  linear-gradient(rgba(0,0,0,0.6), rgb(0,0,0,0.2)), url(images/laptop3.webp);}
+}
+.github,.fbimg,.linkinimg,.instaimg,.whatsapimg,.messimg{
+    color: white;
+}
+.github:hover{
+        transform: scale(1.4); 
+        transition: 1s;
+       color: black;
+}
+.fbimg:hover{
+    transform: scale(1.4);
+    transition: 1s;
+   color: lightskyblue;
+}
+.linkinimg:hover{
+    transform: scale(1.4); 
+    transition: 1s;
+   color: blue;
+}
+.instaimg:hover{
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.4); 
+    transition: 1s;
+    height: 20px;
+}
+.whatsapimg:hover{
+    transform: scale(1.4); 
+    transition: 1s;
+   color: green;
+}
+.messimg:hover{
+    transform: scale(1.4); 
+    transition: 1s;
+   color: red;
+}
+.hometxt{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family:  "Times New Roman", Times, serif;
+    margin-bottom: 300px;
+}
+.font-text-1 {
+    position: relative;
+    bottom: 300px;
+}
+.cursor-1{
+    position: relative;
+    bottom: 300px;
+}
+.aboutsec{
+    margin-left: 70px;
+}
+.abouttxt{
+    font-size: 80px;
+    position: relative;
+    right: 40px;
+    top: 20px;
+}
+.aboutcol1{
+    position: relative;
+    right: 170px;
+    width: 880px;
+    font-size: 25px;
+}
+.aboutcol2{
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+}
+#about{
+    background-color:black;
+    height: 750px;
+}
+.abouimg{
+    width: 600px;
+    border-radius: 100px;
+}
+.hire{
+    background: linear-gradient(to bottom left, #f271f2 9%, #7adffb 93%);
+    font-size: 32px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 17px;
+ }
+ .cv{
+    background: transparent;
+     font-size: 30px;
+     font-weight: 600;
+     margin-right: 30px;
+     border: 3px solid #b09aef;
+     border-radius: 5px;
+     padding: 5px 17px;
+     color: #ffffff;
+  }
+  .subtitle{
+    
+    color: #353b4d !important;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 90px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    padding-left:  195px;
+
+    
+}
+.title{
+    
+        color: #fff !important;
+        /* font-family: 'Solitreo', cursive; */
+        font-family: 'Courgette', cursive;
+        font-size: 45px;       
+        text-transform: uppercase;
+        line-height: 1.2em;
+        letter-spacing: 2px;
+       padding-left: 30px;
+        bottom: -93px;
+        position: relative;
+}
+  .cvbox{
+    overflow-x: hidden;
+     margin-left: 470px;
+  }
+.skills-lang{
+    font-family: 'Solitreo', cursive;
+    font-weight: 700 !important;
+}
+.soft{
+    color: #d1c968;
+    padding: 20px 0 !important;
+}
+  .progress-bar {
+    background:#18677c !important;
+}
+.progress {
+    background-color: #ffffff12;
+}
+
+.inverted {
+    background-color: #242937a9;
+    box-shadow: 0 3px 5px 0.3px #0000001a;
+    backdrop-filter: blur(15px) !important;
+  
+}
+.cards:hover{
+    box-shadow: 6px 6px 25px rgb(17, 17, 17);
+    background-color:transparent !important;
+}
+@media only screen and (max-width: 767px){
+    #header{
+        height: 350px;
+        width: 100%;
+    }
+    .hometxt{
+        font-size: 25px;
+        margin-bottom: 450px;
+    }
+    .font-text-1 {
+        position: relative;
+        bottom: 450px;
+    }
+    .cursor-1{
+        position: relative;
+        bottom: 450px;
+    } 
+    .aboutsec{
+        margin-left: 10px;
+    }
+    .abouttxt{
+        font-size: 50px;
+    }
+    .aboutcol1{
+        position: relative;
+        right: 0px;
+        font-size: 18px;
+    }
+    .aboutcol2{
+        position: relative;
+        right: 0px;
+        bottom: 0px;
+    }
+    #about{
+        background-color:black;
+        height: 1100px;
+    }
+    .abouimg{
+        width: 350px;
+        position: relative;
+        top: 30px;
+        left: 10px;
+    }
+    .hire{
+        font-size: 15px;
+        padding: 5px 17px;
+        width: 130px;
+        height: 50px;
+     }
+     .cv{
+        padding: 5px 17px;
+         font-size: 15px;
+         width: 130px;
+         height: 50px;
+         margin-right: 50px;
+      }
+      .cvbox{
+         margin-left: 0px;
+         position: relative;
+         top: 100px;
+      }
+      .subtitle{
+        color: #353b4d !important;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 90px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        letter-spacing: 2px;
+        padding-left:  195px;   
+    }
+    .title{
+            font-size: 35px;       
+           padding-left: 0px;
+            bottom: -13px;
+            position: relative;
+    }
+}
+
+
+
+
