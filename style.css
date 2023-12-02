@@ -163,6 +163,64 @@ body{
     box-shadow: 6px 6px 25px rgb(17, 17, 17);
     background-color:transparent !important;
 }
+.project-link{
+    color: white;
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #5588f7; 
+    border: none !important;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 5px;
+}
+.project-link:hover {
+    color: #ffff;
+    background-color: #000000;
+    transition: background-color ,0.5s;
+}
+.pro-tex{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.pro-head{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.get-in-touch{
+    font-size: 70px;
+    font-weight: 900;
+    font-family:Georgia, serif;
+    font-style: italic;
+}
+.send{
+    color: #ffffff;
+    size: 25px;
+    position: relative;
+    text-align: center;
+    display: block;
+    top: -65px;
+    left: -45px;
+    font-size: 30px;
+}
+.message{
+    height: 200px;
+}
+#scroll{
+    color: #0d6efd;
+    font-size: 40px;
+    float: right;
+    position: fixed;
+    display: block;
+    bottom: 40px;
+    right: 45px;   
+}
+.footerimg{
+    height: 550px;
+}
 @media only screen and (max-width: 767px){
     #header{
         height: 350px;
@@ -239,6 +297,12 @@ body{
            padding-left: 0px;
             bottom: -13px;
             position: relative;
+    }
+    .get-in-touch{
+        font-size: 40px;
+    }
+    .footerimg{
+        height: 300px;
     }
 }
 
