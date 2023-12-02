@@ -221,6 +221,10 @@ body{
 .footerimg{
     height: 550px;
 }
+.cvunderline{
+    text-decoration: none;
+    color: white;
+}
 @media only screen and (max-width: 767px){
     #header{
         height: 350px;
